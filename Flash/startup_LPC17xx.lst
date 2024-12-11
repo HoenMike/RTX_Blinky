@@ -421,11 +421,11 @@ ARM Macro Assembler    Page 7
               00000000 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
-ork --depend=.\flash\startup_lpc17xx.d -o.\flash\startup_lpc17xx.o -ID:\Apps\Ke
-il_V5\ARM\RV31\INC -ID:\Apps\Keil_V5\ARM\CMSIS\Include -ID:\Apps\Keil_V5\ARM\IN
-C\NXP\LPC17xx --predefine="__RTX SETA 1" --predefine="__EVAL SETA 1" --predefin
-e="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 541" --list=.\flash\s
-tartup_lpc17xx.lst startup_LPC17xx.s
+ork --depend=.\flash\startup_lpc17xx.d -o.\flash\startup_lpc17xx.o -I"D:\lab em
+bedded\ARM\RV31\INC" -I"D:\lab embedded\ARM\CMSIS\Include" -I"D:\lab embedded\A
+RM\INC\NXP\LPC17xx" --predefine="__RTX SETA 1" --predefine="__EVAL SETA 1" --pr
+edefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 527" --list=.\f
+lash\startup_lpc17xx.lst startup_LPC17xx.s
 
 
 
