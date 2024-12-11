@@ -1,0 +1,52 @@
+Dependencies for Project 'Blinky', Target 'LPC1768 Flash': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARM_Compiler5
+F (.\startup_LPC17xx.s)(0x5087687E)(--cpu Cortex-M3 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\Apps\Keil_V5\ARM\RV31\INC-ID:\Apps\Keil_V5\ARM\CMSIS\Include-ID:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx--pd "__UVISION_VERSION SETA 541"--list .\flash\startup_lpc17xx.lst --xref -o .\flash\startup_lpc17xx.o --depend .\flash\startup_lpc17xx.d)
+F (.\system_LPC17xx.c)(0x5087687E)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I .-ID:\Apps\Keil_V5\ARM\RV31\INC-ID:\Apps\Keil_V5\ARM\CMSIS\Include-ID:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="541"-o .\flash\system_lpc17xx.o --omf_browse .\flash\system_lpc17xx.crf --depend .\flash\system_lpc17xx.d)
+I (D:\Apps\Keil_V5\ARM\ARM_Compiler5\include\stdint.h)(0x5E8E4AD2)
+I (D:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559CEFC2)
+I (D:\Apps\Keil_V5\ARM\CMSIS\Include\core_cm3.h)(0x559CF9AA)
+I (D:\Apps\Keil_V5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CF9AA)
+I (D:\Apps\Keil_V5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CF9AA)
+I (D:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x57036A22)
+F (.\RTX_Conf_CM.c)(0x5087687E)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I .-ID:\Apps\Keil_V5\ARM\RV31\INC-ID:\Apps\Keil_V5\ARM\CMSIS\Include-ID:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="541"-o .\flash\rtx_conf_cm.o --omf_browse .\flash\rtx_conf_cm.crf --depend .\flash\rtx_conf_cm.d)
+I (D:\Apps\Keil_V5\ARM\RV31\INC\RTL.h)(0x559CEE88)
+I (D:\Apps\Keil_V5\ARM\RV31\INC\RTX_lib.c)(0x559CEE88)
+F (.\GLCD_SPI_LPC1700.c)(0x5087687E)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I .-ID:\Apps\Keil_V5\ARM\RV31\INC-ID:\Apps\Keil_V5\ARM\CMSIS\Include-ID:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="541"-o .\flash\glcd_spi_lpc1700.o --omf_browse .\flash\glcd_spi_lpc1700.crf --depend .\flash\glcd_spi_lpc1700.d)
+I (D:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx\lpc17xx.h)(0x559CEFC2)
+I (D:\Apps\Keil_V5\ARM\CMSIS\Include\core_cm3.h)(0x559CF9AA)
+I (D:\Apps\Keil_V5\ARM\ARM_Compiler5\include\stdint.h)(0x5E8E4AD2)
+I (D:\Apps\Keil_V5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CF9AA)
+I (D:\Apps\Keil_V5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CF9AA)
+I (D:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x57036A22)
+I (GLCD.h)(0x5087687E)
+I (Font_6x8_h.h)(0x5087687E)
+I (Font_16x24_h.h)(0x5087687E)
+F (.\LED.c)(0x5087687E)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I .-ID:\Apps\Keil_V5\ARM\RV31\INC-ID:\Apps\Keil_V5\ARM\CMSIS\Include-ID:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="541"-o .\flash\led.o --omf_browse .\flash\led.crf --depend .\flash\led.d)
+I (D:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx\LPC17xx.H)(0x559CEFC2)
+I (D:\Apps\Keil_V5\ARM\CMSIS\Include\core_cm3.h)(0x559CF9AA)
+I (D:\Apps\Keil_V5\ARM\ARM_Compiler5\include\stdint.h)(0x5E8E4AD2)
+I (D:\Apps\Keil_V5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CF9AA)
+I (D:\Apps\Keil_V5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CF9AA)
+I (D:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x57036A22)
+I (LED.h)(0x5087687E)
+F (.\Blinky.c)(0x6759009D)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I .-ID:\Apps\Keil_V5\ARM\RV31\INC-ID:\Apps\Keil_V5\ARM\CMSIS\Include-ID:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="541"-o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
+I (D:\Apps\Keil_V5\ARM\RV31\INC\RTL.h)(0x559CEE88)
+I (D:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx\LPC17xx.H)(0x559CEFC2)
+I (D:\Apps\Keil_V5\ARM\CMSIS\Include\core_cm3.h)(0x559CF9AA)
+I (D:\Apps\Keil_V5\ARM\ARM_Compiler5\include\stdint.h)(0x5E8E4AD2)
+I (D:\Apps\Keil_V5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CF9AA)
+I (D:\Apps\Keil_V5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CF9AA)
+I (D:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x57036A22)
+I (GLCD.h)(0x5087687E)
+I (LED.h)(0x5087687E)
+I (joystick.h)(0x67590035)
+F (.\joystick.h)(0x67590035)()
+F (.\joystick.c)(0x67590049)(-c --cpu Cortex-M3 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I .-ID:\Apps\Keil_V5\ARM\RV31\INC-ID:\Apps\Keil_V5\ARM\CMSIS\Include-ID:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="541"-o .\flash\joystick.o --omf_browse .\flash\joystick.crf --depend .\flash\joystick.d)
+I (D:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559CEFC2)
+I (D:\Apps\Keil_V5\ARM\CMSIS\Include\core_cm3.h)(0x559CF9AA)
+I (D:\Apps\Keil_V5\ARM\ARM_Compiler5\include\stdint.h)(0x5E8E4AD2)
+I (D:\Apps\Keil_V5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CF9AA)
+I (D:\Apps\Keil_V5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CF9AA)
+I (D:\Apps\Keil_V5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x57036A22)
+I (joystick.h)(0x67590035)
+F (.\Abstract.txt)(0x5087687E)()

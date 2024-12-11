@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.41.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: HoangMai M, HTH, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.41.0.0
+Toolchain Path:  D:\Apps\Keil_V5\ARM\ARM_Compiler5\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.41.0.0
+Dialog DLL:      DARMP1.DLL V1.28.1.0
+Target DLL:      UL2CM3.DLL V1.164.14.0
+Dialog DLL:      TARMP1.DLL V1.27.1.0
+ 
+<h2>Project:</h2>
+D:\Downloads\RTX_Blinky\Blinky.uvproj
+Project File Date:  12/11/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Apps\Keil_V5\ARM\ARM_Compiler5\Bin'
+Build target 'LPC1768 Flash'
+compiling Blinky.c...
+Blinky.c(63): warning:  #144-D: a value of type "uint8_t (*)[4]" cannot be used to initialize an entity of type "volatile uint8_t (*)[4]"
+  volatile uint8_t (*lookup_table)[4] = full_step_lookup_table; // Default to full-step
+Blinky.c(108): error:  #20: identifier "mut_Stepper" is undefined
+      os_mut_wait(mut_Stepper, 0xffff);
+Blinky.c(115): warning:  #513-D: a value of type "uint8_t (*)[4]" cannot be assigned to an entity of type "volatile uint8_t (*)[4]"
+          lookup_table = full_step_lookup_table;
+Blinky.c(122): warning:  #513-D: a value of type "uint8_t (*)[4]" cannot be assigned to an entity of type "volatile uint8_t (*)[4]"
+          lookup_table = half_step_lookup_table;
+Blinky.c(129): warning:  #513-D: a value of type "uint8_t (*)[4]" cannot be assigned to an entity of type "volatile uint8_t (*)[4]"
+          lookup_table = wave_drive_lookup_table;
+Blinky.c(280): error:  #20: identifier "mut_Stepper" is undefined
+              os_mut_wait(mut_Stepper, 0xffff);
+Blinky.c(290): error:  #20: identifier "mut_Stepper" is undefined
+              os_mut_wait(mut_Stepper, 0xffff);
+Blinky.c(267): warning:  #177-D: variable "direction"  was declared but never referenced
+      uint32_t direction = 1; // 1 for clockwise, 0 for anti-clockwise
+Blinky.c(314): error:  #20: identifier "mut_Stepper" is undefined
+      os_mut_init(mut_Stepper);
+Blinky.c(323): error:  #20: identifier "t_stepper" is undefined
+      t_stepper = os_tsk_create(stepper_task, 0); /* start stepper motor task    */
+Blinky.c: 5 warnings, 5 errors
+compiling joystick.c...
+".\Flash\Blinky.axf" - 5 Error(s), 5 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
